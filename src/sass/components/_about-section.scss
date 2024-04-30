@@ -1,0 +1,41 @@
+.about-section > .container {
+  width: 1170px;
+  display: flex;
+  gap: 30px;
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-bottom: 30px;
+  padding-right: 70px;
+  margin-bottom: 150px;
+  background:$second-background-color;
+
+  & .img-wrapper {
+    display: flex;
+    position: relative;
+    gap: 30px;
+    & div{
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+    & img:last-of-type{
+      padding-top: 30px;
+    }
+    & img:nth-of-type(2){
+      position: absolute;
+      bottom: -60px;
+      left: 0;
+    }
+  }
+  & .wrapper{
+    width: 400px;
+  }
+}
+
+.about-section-title{
+  margin-bottom: 20px;
+}
+
+.section-text{
+  margin-bottom: 20px;
+}

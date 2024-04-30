@@ -1,0 +1,32 @@
+.goals-section-title{
+  margin-bottom: 60px;
+}
+.goals-section-list{
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+  line-height: 1.64;
+  & .goals-item:first-child div:nth-child(2){
+    width: 279px;
+  }
+  & .goals-item.item:last-child div:nth-child(2){
+    width: 420px;
+  }
+}
+
+.goals-item{
+  display: flex;
+  gap: 30px;
+  align-items:start;
+  & .goals-number{
+    display: flex;
+    align-items: center;
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 200px;
+    font-weight: 900;
+    color: #F2F2F2;
+    line-height: 1;
+    letter-spacing: 0;
+    height: 140px;
+  }
+}

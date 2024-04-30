@@ -1,0 +1,39 @@
+@use "../utils/variables";
+
+.header {
+  display: flex;
+  padding-top: 29px;
+  padding-bottom: 29px;
+  color:$second-font-color;
+&  .container {
+  display: flex;
+}
+}
+
+.header-navigation {
+  display: flex;
+  gap: 330px;
+  align-items: center;
+  text-align: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 60px;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  color: $second-font-color;
+}
+
+.header .current {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border:$second-font-color 1px solid;
+  border-left: 0;
+  border-right: 0;
+}

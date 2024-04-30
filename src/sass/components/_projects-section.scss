@@ -1,0 +1,64 @@
+@use "../utils/variables";
+
+.projects-section > .container {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  & > .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    & .leisure-center-wrapper{
+      width: 100%;
+      display: flex;
+      gap: 30px;
+    }
+  }
+}
+
+.img-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  gap:30px;
+  margin-bottom: 30px;
+}
+
+
+.leisure-center{
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding-left: 79px;
+  padding-top: 48px;
+  padding-right: 78px;
+
+  width: 100%;
+  height: 100%;
+  background-image: $gradient, url(../images/projects-section-img-1.jpg);
+  background-size: cover;
+  background-position: center;
+  & h3{
+    width: 413px;
+    color: #FFF;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+  &>button{
+    display: flex;
+    color:#FFF;
+    background: transparent;
+    padding: 14px 0;
+    height: 38px;
+    width:103px ;//передивитись
+    & > svg{
+      fill:  #FFF;;
+    }
+  }
+}
+
+.more-btn>svg{
+  fill:#FFF;
+}
